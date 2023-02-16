@@ -61,6 +61,17 @@ After installed, set a meaningful computer name, example `tungdtWindowsGram17z90
   * Then go to network modem setting (usually at 192.168.1.1) to map ports.  
     If Firefox gets error `SSL_ERROR_UNSUPPORTED_VERSION`: `security.tls.version.enable-deprecated`. ([ref](https://stackoverflow.com/a/71411721/4097963))  
     Modem settings are usually named DHCP, static IP, Forward Rules.
+  
+  * Useful commands:
+  
+  ````
+  :: look for value of Ethernet adapter Physical address
+  ipconfig /all
+  
+  :: refresh after config static IP
+  ipconfig /release
+  ipconfig /renew
+  ````
 
 ### 7. Install usual apps as admin user
 
