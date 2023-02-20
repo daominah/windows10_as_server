@@ -28,11 +28,15 @@ After installed, set a meaningful computer name, example `tungdtWindowsGram17z90
   net user administrator /active:yes
   ````
 
-* Disable default `Quick Edit` in `cmd`.
-
 * Set administrator account password (default admin does not have a password):
 
-  * `Sign-in options`: `Password`: `Add`
+  `Sign-in options`: `Password`: `Add`
+
+* Disable default `Quick Edit` in `cmd`.
+
+* Disable automatic Windows update:
+
+  [TODO](https://superuser.com/questions/946957/stopping-all-automatic-updates-windows-10)
 
 ### 5. Remote control
 
